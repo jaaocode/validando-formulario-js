@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <div class="form-section">
+            <h1>Boas vindas!</h1>
+
+            <form action="/" method="post" id="form">
+                <div class="input-container">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="name" id="name" class="valid" placeholder="Nome">
+                </div>
+                <div class="input-container">
+                    <i class="fa-solid fa-user-group"></i>
+                    <input type="text" name="user" id="user" class="user valid" placeholder="Username">
+                </div>
+                <div class="input-container">
+                    <i class="fa-solid fa-globe"></i>
+                    <input type="text" name="cpf" id="cpf" class="cpf valid" placeholder="CPF">
+                </div>
+                <div class="input-container">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" class="valid" id="password" placeholder="Senha">
+                </div>
+                <div class="input-container">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="passwordConfirm" id="passwordConfirm" class="valid"
+                        placeholder="Senha">
+                </div>
+
+                <button id="submitButton">Criar conta</button>
+            </form>
+
+            <p class="p-link">Já possui uma conta? <a href="#">Clique aqui para fazer Login</a></p>
+
+        </div>
+
+        <div class="image-section">
+            <img src="/validandoFormulario/assets/undraw_data-at-work_3tbf.svg" alt="Man at work">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/78c02f328b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
